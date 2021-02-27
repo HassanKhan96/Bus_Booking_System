@@ -1,0 +1,53 @@
+.About-container {
+    margin-top: 100px;
+    font-family: Arial;
+    background-color: #fff;
+}
+
+.About-title {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.About-desc {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.About-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.About-contact {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 1px 1px 4px 0.5px #666;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-card img {
+    border-radius: 5px;
+}
+
+.About-detail {
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

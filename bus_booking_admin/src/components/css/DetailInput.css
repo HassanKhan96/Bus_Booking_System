@@ -1,0 +1,72 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    width: null;
+    font-family: Arial;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.Input {
+    width: 500px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.AddInput {
+    width: 500px;
+    border: 1px solid rgb(163, 163, 163);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.AddInput:focus {
+    border-color: rgb(115, 21, 202);
+    box-shadow: 1px 1px 3px rgba(105, 105, 105, 0.747);
+}
+
+.Input:disabled {
+    border: none;
+}
+
+.Input:focus {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.Edit {
+    margin-left: 5%;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.Edit:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.input-label {
+    font-size: 18px;
+    font-weight: 600;
+    width: 150px;
+    text-align: left;
+}
+

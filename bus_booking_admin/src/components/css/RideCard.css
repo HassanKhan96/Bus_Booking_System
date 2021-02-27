@@ -1,0 +1,50 @@
+.container-card {
+    background-color: rgb(104, 212, 216);
+    margin: 3%;
+    border-radius: 10px;
+    display: flex;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.location-card {
+    font-weight: bold;
+}
+
+.seats-card {
+    font-size: 80%;
+    margin-top: 1%;
+}
+
+.time-card {
+    font-size: 90%;
+    margin-top: 1%;
+}
+
+.ride-options {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.options-link {
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
+    flex-direction: row;
+}
+
+.options-link:hover {
+    text-decoration: underline;
+}
